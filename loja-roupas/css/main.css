@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.login-main {
+    height: 100%;
+}
+
+.cart-main {
+    height: 100%;
+}
+
+.profile-main {
+    height: 100%;
+}

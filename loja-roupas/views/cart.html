@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/tshirt-solid.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/all.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/79b02261b9.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Meu carrinho</title>
+</head>
+<body>
+    <header>
+        <div class="main-bar">
+            <div class="logo-loja">
+                <a href="../index.html">
+                    <i class="fas fa-tshirt"></i>
+                    <h1>Loja de Roupas</h1>
+                </a>
+            </div>
+            <div class="menu">
+                <input type="text" placeholder="O que você procura?">
+                <input type="submit" value="Pesquisar">
+                <ul>
+                    <li><a href="login.html"><i class="fas fa-user"></i>Entrar</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i>Carrinho</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="line"></div>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Infantil</a></li>
+                    <li><a href="#">Calçados</a></li>
+                    <li><a href="#">Moletom</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="cart-main">
+        <section id="cart">
+            <div class="product-cart">
+                <div class="product-detail">
+                    <img src="../images/camiseta-preta.jpg" alt="Camiseta preta">
+                    <span class="product-title">Camiseta Preta</span>
+                    <span>R$ 29,99</span>
+                </div>
+                <div class="cart-remove-item">
+                    <button><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="product-cart">
+                <div class="product-detail">
+                    <img src="../images/camiseta-preta.jpg" alt="Camiseta preta">
+                    <span class="product-title">Camiseta Preta</span>
+                    <span>R$ 29,99</span>
+                </div>
+                <div class="cart-remove-item">
+                    <button><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="product-cart">
+                <div class="product-detail">
+                    <img src="../images/camiseta-preta.jpg" alt="Camiseta preta">
+                    <span class="product-title">Camiseta Preta</span>
+                    <span>R$ 29,99</span>
+                </div>
+                <div class="cart-remove-item">
+                    <button><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+        </section>
+        <section id="checkout">
+            <div class="shipping-product">
+                <input type="text" placeholder="Digite seu CEP">
+                <button class="shipping-calc">Calcular Frete</button>
+            </div>
+            <div class="checkout">
+                <span class="total-price">Preço total: </span>
+                <span>R$ 89,97</span>
+                <button>Finalizar compra</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span class="footer-content">&copy; Loja de Roupas 2020</span>
+    </footer>
+</body>
+</html>

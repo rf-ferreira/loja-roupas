@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/tshirt-solid.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/79b02261b9.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Loja de Roupas</title>
+</head>
+<body>
+    <header>
+        <div class="main-bar">
+            <div class="logo-loja">
+                <a href="#">
+                    <i class="fas fa-tshirt"></i>
+                    <h1>Loja de Roupas</h1>
+                </a>
+            </div>
+            <div class="menu">
+                <input type="text" placeholder="O que você procura?">
+                <input type="submit" value="Pesquisar">
+                <ul>
+                    <li><a href="views/login.html"><i class="fas fa-user"></i>Entrar</a></li>
+                    <li><a href="views/cart.html"><i class="fas fa-shopping-cart"></i>Carrinho</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="line"></div>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Infantil</a></li>
+                    <li><a href="#">Calçados</a></li>
+                    <li><a href="#">Moletom</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="releases">
+            <img src="images/camiseta-preta.jpg" alt="camiseta preta">
+            <div class="overlay"></div>
+            <h2>Lançamentos</h2>
+        </section>
+        <h2 class="title-products">Produtos</h2>
+        <div class="container">
+            <sidebar>
+                <div class="gender">
+                    <h3>Gênero</h3>
+                    <ul>
+                        <li><input type="checkbox" name="male" id="gid1"><label for="gid1">Masculino</label></li>
+                        <li><input type="checkbox" name="female" id="gid2"><label for="gid2">Feminino</label></li>
+                    </ul>
+                </div>
+                <div class="size">
+                    <h3>Tamanho</h3>
+                    <ul>
+                        <li><input type="checkbox" name="size-pp" id="sid1"><label for="sid1">PP</label></li>
+                        <li><input type="checkbox" name="size-p" id="sid2"><label for="sid2">P</label></li>
+                        <li><input type="checkbox" name="size-m" id="sid3"><label for="sid3">M</label></li>
+                        <li><input type="checkbox" name="size-g" id="sid4"><label for="sid4">G</label></li>
+                        <li><input type="checkbox" name="size-gg" id="sid5"><label for="sid5">GG</label></li>
+                    </ul>
+                </div>
+                <div class="product-type">
+                    <h3>Tipo de Produto</h3>
+                    <ul>
+                        <li><input type="checkbox" name="tshirts" id="ptid1"><label for="ptid1">Camisetas</label></li>
+                        <li><input type="checkbox" name="shorts" id="ptid2"><label for="ptid2">Bermudas</label></li>
+                        <li><input type="checkbox" name="pants" id="ptid3"><label for="ptid3">Calças</label></li>
+                        <li><input type="checkbox" name="hoodies" id="ptid4"><label for="ptid4">Moletom</label></li>
+                        <li><input type="checkbox" name="sneakers" id="ptid5"><label for="ptid5">Tênis</label></li>
+                        <li><input type="checkbox" name="glasses" id="ptid6"><label for="ptid6">Óculos</label></li>
+                    </ul>
+                </div>
+            </sidebar>
+            <section id="products">
+                <div class="product" onclick="location.href='views/product.html'">
+                    <img src="images/camiseta-preta.jpg" alt="camiseta preta">
+                    <span class="description">Camiseta Preta</span>
+                    <span class="price">R$ 29,99</span>
+                </div>
+                <div class="product" onclick="location.href='views/product.html'">
+                    <img src="images/camiseta-preta.jpg" alt="camiseta preta">
+                    <span class="description">Camiseta Preta</span>
+                    <span class="price">R$ 29,99</span>
+                </div>
+                <div class="product" onclick="location.href='views/product.html'">
+                    <img src="images/camiseta-preta.jpg" alt="camiseta preta">
+                    <span class="description">Camiseta Preta</span>
+                    <span class="price">R$ 29,99</span>
+                </div>
+                <div class="product" onclick="location.href='views/product.html'">
+                    <img src="images/camiseta-preta.jpg" alt="camiseta preta">
+                    <span class="description">Camiseta Preta</span>
+                    <span class="price">R$ 29,99</span>
+                </div>
+                <div class="product" onclick="location.href='views/product.html'">
+                    <img src="images/camiseta-preta.jpg" alt="camiseta preta">
+                    <span class="description">Camiseta Preta</span>
+                    <span class="price">R$ 29,99</span>
+                </div>
+                <div class="product" onclick="location.href='views/product.html'">
+                    <img src="images/camiseta-preta.jpg" alt="camiseta preta">
+                    <span class="description">Camiseta Preta</span>
+                    <span class="price">R$ 29,99</span>
+                </div>
+                <div class="pagination">
+                    <a href="#" class="page-last">&lt;</a><a href="#" class="page-number">[1]</a><a href="#" class="page-next">&gt;</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <span class="footer-content">&copy; Loja de Roupas 2020</span>
+    </footer>
+</body>
+</html>

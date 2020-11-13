@@ -1,0 +1,15 @@
+footer {
+    background: rgb(224, 224, 224);
+    height: 50px;
+    font-size: 0.825rem;
+    margin-top: 15px;
+    position: relative;
+}
+
+.footer-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(120, 120, 120);
+}

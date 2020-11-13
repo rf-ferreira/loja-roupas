@@ -1,0 +1,128 @@
+#product-preview { 
+    display: flex;
+    max-width: 1080px;
+    margin: 20px auto 0;
+    justify-content: space-around;
+}
+
+.product-preview {
+    width: 50%;
+    flex-direction: column;
+}
+
+.product-preview > img {
+    max-width: 100%;
+}
+
+#product-imgs {
+    display: inline-block;
+    width: 100%;
+}
+
+.product-img {
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 2px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.product-img:hover {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.product-img img {
+    max-width: 44px;
+    max-height: 44px;
+    height: 44px;
+    width: 44px;
+}
+
+.product-details {
+    width: 35%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 5px;
+}
+
+.product-details h2 {
+    margin-top: 10px;
+}
+
+.product-details > button {
+    width: 50%;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin: 3px auto;
+    color: rgb(54, 54, 54);
+    cursor: pointer;
+}
+
+.shipping {
+    margin-top: 45%;
+}
+
+.shipping input {
+    height: 25px;
+    width: 100px;
+}
+
+.shipping button {
+    height: 25px;
+    cursor: pointer;
+}
+
+.product-details .buy {
+    background: rgb(194, 194, 194);
+    margin-top: 30%;
+}
+
+.product-details .add-to-cart {
+    background: rgb(209, 209, 209);
+}
+
+.product-details .buy:hover {
+    background: rgb(180, 180, 180);
+}
+
+.product-details .add-to-cart:hover {
+    background: rgb(196, 195, 195);
+}
+
+.line2::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgb(138, 138, 138);
+    width: 960px;
+    margin: 20px auto 10px;
+}
+
+#product-description {
+    max-width: 1080px;
+    margin: 10px auto;
+}
+
+.product-description h2 {
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+    position: relative;
+}
+
+.product-description h2::after {
+    content: '';
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 84px;
+}
+
+.product-description p {
+    font-size: 0.9rem;
+}
